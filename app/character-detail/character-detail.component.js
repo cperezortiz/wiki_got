@@ -7,11 +7,8 @@ angular.
 				// Use restful client to call got api
 				// fill my objects
 				var self = this;
+
 				self.character = IceFire.query();
-				console.log(self.character);
-				self.characterName = "";
-				self.characterGender = "";
-				self.characterCulture = "";
 			}
 		]
 	});
