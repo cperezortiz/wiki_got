@@ -11,7 +11,7 @@ angular.
   				when('/search', {
   					template: '<character-search></character-search>'
   				}).
-  				when('/detail', {
+  				when('/detail/:characterName', {
   					template: '<character-detail></character-detail>'
   				}).
   				otherwise('/search');

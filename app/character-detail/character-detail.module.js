@@ -1,4 +1,4 @@
 'use strict'
 angular.module('characterDetail', [
-	'core.iceFire'
+	'core.iceFire', 'ngRoute'
 ]);
