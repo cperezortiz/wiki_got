@@ -1,2 +1,2 @@
 angular.
-	module('core', ['core.iceFire']);
+	module('core', ['core.iceFire', 'core.favorites']);

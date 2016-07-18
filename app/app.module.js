@@ -1,4 +1,4 @@
 'use strict'
 angular.module('gotApp', [
-  'ngRoute', 'characterSearch', 'characterDetail', 'core'
+  'ngRoute', 'characterSearch', 'characterDetail', 'favoriteList','core'
 ])

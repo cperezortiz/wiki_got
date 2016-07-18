@@ -9,7 +9,7 @@ angular.
 
   			$routeProvider.
   				when('/search', {
-  					template: '<character-search></character-search>'
+  					template: '<character-search></character-search> <favorite-list></favorite-list>' 
   				}).
   				when('/detail/:characterName', {
   					template: '<character-detail></character-detail>'
