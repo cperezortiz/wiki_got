@@ -8,7 +8,7 @@ angular.
 				var self = this;
 				self.character = "";
 				self.search = function search(){
-					$location.path('/detail');
+					$location.path('/detail/' + self.character);
 				};
 			}
 		]
