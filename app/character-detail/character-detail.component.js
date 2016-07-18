@@ -8,8 +8,8 @@ angular.
 				// fill my objects
 				var self = this;
 
-				console.log($routeParams.characterName);
-				self.character = IceFire.query();
+				// self.character = IceFire.query();
+				self.character = IceFire.query({name: $routeParams.characterName});
 			}
 		]
 	});
