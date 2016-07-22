@@ -2,14 +2,20 @@ angular.
 	module('core.favorites').
 	factory('Favorites', [
 		function(){
-			var favorites = [{name: 'ned'}];
+			self = this;
 			return {
 				getFavorites: function(){
-					return favorites;
+					return self.favorites;
 				},
 				addFavorite: function(data){
-					// add data to favorites var
-					favorites.push(data);
+					self.favorites.push(data);
+				},
+				initFavorites: function(data){
+					if (data != null){
+						self.favorites = data;
+					}else{
+						self.favorites = [];
+					}
 				}
 			};
 		}
